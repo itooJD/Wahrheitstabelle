@@ -34,6 +34,7 @@ public class Wahrheitstabelle {
 		return anzahlGetesteterAtome / (1.0 * size) * 100;
 	}
 
+	// minimal bedingte Mehrfachueberdeckung
 	public double minBeMebe() {
 		int anzahlgetesterMMKombination = 0;
 		int anzahlderNachbarn = 0;
